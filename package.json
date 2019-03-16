@@ -1,0 +1,21 @@
+{
+  "name": "muber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "set NODE_ENV=test && nodemon --exec mocha --recursive -R min"
+  },
+  "keywords": [],
+  "author": "Thanaphoom Babparn",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mocha": "^6.0.2",
+    "mongoose": "^4.9.1",
+    "nodemon": "^1.18.10",
+    "supertest": "^4.0.2"
+  }
+}
